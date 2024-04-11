@@ -1,0 +1,64 @@
+* {
+	font-family: JetBrainsMonoNL Nerd Font;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+h1 {
+	margin: 0;
+	padding: 15px 0;
+}
+
+.content {
+	background-color: white;
+	text-align: center;
+	max-width: 450px;
+	margin: auto;
+	margin-top: 10%;
+	border-radius: 15px;
+	box-shadow: 0 10px 15px hsla(0, 0%, 0%, 0.5);
+}
+
+label {
+	font-size: 20px;
+}
+
+#textBox {
+	text-align: center;
+	width: 150px;
+	margin: 15px 15px;
+	font-size: 25px;
+	border-radius: 3px;
+}
+
+.checkbox-holder {
+	text-align: left;
+	padding: 0 60px;
+}
+
+button {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	font-size: 19px;
+	border-radius: 10px;
+	margin-top: 15px;
+	cursor: pointer;
+	transition: opacity 0.2s;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+button:active {
+	background-color: rgb(34, 34, 34);
+}
+
+p {
+	word-wrap: break-word;
+	padding: 20px 0;
+	font-size: 20px;
+}

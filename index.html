@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Password generator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="content">
+		<h1>Генератор Пароля</h1>
+
+		<label for="textBox">Какой длины будет пароль?</label><br>
+		<input type="number" name="passwordLength" id="textBox" value="0"><br>
+
+		<div class="checkbox-holder">
+
+		<input type="checkbox" name="includeLowerCase" id="includeLowerCaseCheckBox">
+		<label for="includeLowerCaseCheckBox">Добавить буквы без капса</label><br>
+
+		<input type="checkbox" name="includeUpperCase" id="includeUpperCaseCheckBox">
+		<label for="includeUpperCaseCheckBox">Добавить буквы с капсом</label><br>
+
+		<input type="checkbox" name="includeSymbols" id="includeSymbolsCheckBox">
+		<label for="includeSymbolsCheckBox">Добавить символы и знаки</label><br>
+
+		<input type="checkbox" name="includeNumbers" id="includeNumbersCheckBox">
+		<label for="includeNumbersCheckBox">Добавить цифры</label><br>
+
+	</div>
+
+		<button onclick="generatePassword()">Сгенерировать</button><br>
+		<p id="result">Выберите настройки пароля</p>
+		
+	</div>
+
+	
+	<script src="index.js"></script>
+</body>
+</html>
